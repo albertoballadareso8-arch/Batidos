@@ -1,0 +1,57 @@
+body {
+  background-color: #1e2a38;
+  font-family: Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.tarjeta {
+  background-color: #2e3e4e;
+  color: #ffffff;
+  padding: 25px 35px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  width: 350px;
+  text-align: center;
+}
+
+.tarjeta h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  color: #4caf50;
+}
+
+.especialidad {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #c0e8c0;
+}
+
+.slogan {
+  font-style: italic;
+  font-size: 14px;
+  color: #a0d0a0;
+  margin-bottom: 15px;
+}
+
+hr {
+  border: 1px solid #4caf50;
+  margin: 15px 0;
+}
+
+.info p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
